@@ -16,6 +16,7 @@
 		B5168F1A237AE48100E6BA93 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5168F19237AE48100E6BA93 /* TestUITests.swift */; };
 		B5168F28237AE64C00E6BA93 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5168F27237AE64C00E6BA93 /* SwipeViewController.swift */; };
 		B5AF4718237C2DEE00CD27E9 /* GyroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AF4717237C2DEE00CD27E9 /* GyroViewController.swift */; };
+		B5DD48C12383357700DB023A /* BluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD48C02383357700DB023A /* BluetoothViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B5168F1B237AE48100E6BA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5168F27237AE64C00E6BA93 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
 		B5AF4717237C2DEE00CD27E9 /* GyroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroViewController.swift; sourceTree = "<group>"; };
+		B5DD48C02383357700DB023A /* BluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				B5168F05237AE48000E6BA93 /* Info.plist */,
 				B5168F27237AE64C00E6BA93 /* SwipeViewController.swift */,
 				B5AF4717237C2DEE00CD27E9 /* GyroViewController.swift */,
+				B5DD48C02383357700DB023A /* BluetoothViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -275,7 +278,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"~/Documents/InputTest/Test/Info.plist\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"~/Documents/InputTest/Test/Info.plist\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"/Users/ben/Documents/Programming/Swift/team30_project/InputTest/Test/Info.plist\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"/Users/ben/Documents/Programming/Swift/team30_project/InputTest/Test/Info.plist\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -286,6 +289,7 @@
 			files = (
 				B5168EFC237AE47800E6BA93 /* ViewController.swift in Sources */,
 				B5168EF8237AE47800E6BA93 /* AppDelegate.swift in Sources */,
+				B5DD48C12383357700DB023A /* BluetoothViewController.swift in Sources */,
 				B5AF4718237C2DEE00CD27E9 /* GyroViewController.swift in Sources */,
 				B5168F28237AE64C00E6BA93 /* SwipeViewController.swift in Sources */,
 			);

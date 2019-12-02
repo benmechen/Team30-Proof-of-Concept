@@ -165,7 +165,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9C-1b-9g9">
-                                <rect key="frame" x="20" y="0.0" width="45" height="33"/>
+                                <rect key="frame" x="20" y="10" width="45" height="33"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Close">
                                     <color key="titleColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -191,7 +191,7 @@
                             <constraint firstAttribute="bottom" secondItem="vrQ-J3-ymy" secondAttribute="bottom" constant="20" id="W6p-4V-3jP"/>
                             <constraint firstItem="Syi-Mp-R7G" firstAttribute="centerX" secondItem="yC1-hg-Reu" secondAttribute="centerX" id="WKE-Jc-nrc"/>
                             <constraint firstItem="75y-GH-UIm" firstAttribute="top" secondItem="Syi-Mp-R7G" secondAttribute="bottom" constant="8" id="dar-10-Paf"/>
-                            <constraint firstItem="p9C-1b-9g9" firstAttribute="top" secondItem="37O-kQ-Kcr" secondAttribute="top" id="ip8-Z7-0B1"/>
+                            <constraint firstItem="p9C-1b-9g9" firstAttribute="top" secondItem="37O-kQ-Kcr" secondAttribute="top" constant="10" id="ip8-Z7-0B1"/>
                             <constraint firstItem="7xp-PD-z9g" firstAttribute="centerX" secondItem="yC1-hg-Reu" secondAttribute="centerX" id="j1u-0b-EWA"/>
                             <constraint firstItem="Syi-Mp-R7G" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="p9C-1b-9g9" secondAttribute="trailing" constant="8" symbolic="YES" id="ldo-fm-bYQ"/>
                             <constraint firstItem="7xp-PD-z9g" firstAttribute="centerX" secondItem="yC1-hg-Reu" secondAttribute="centerX" id="o7y-Oo-eTh"/>
@@ -283,7 +283,7 @@
                                 </constraints>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="511-p1-19j">
-                                <rect key="frame" x="20" y="0.0" width="45" height="33"/>
+                                <rect key="frame" x="20" y="10" width="45" height="33"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Close">
                                     <color key="titleColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -297,7 +297,7 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="U09-S8-Siz" secondAttribute="bottom" constant="20" id="60f-Yi-CFi"/>
-                            <constraint firstItem="511-p1-19j" firstAttribute="top" secondItem="WWR-B1-TL7" secondAttribute="top" id="9iN-m1-J26"/>
+                            <constraint firstItem="511-p1-19j" firstAttribute="top" secondItem="WWR-B1-TL7" secondAttribute="top" constant="10" id="9iN-m1-J26"/>
                             <constraint firstItem="uj0-1R-CZn" firstAttribute="centerX" secondItem="Zkn-pN-64t" secondAttribute="centerX" id="A88-Y3-eeU"/>
                             <constraint firstItem="U09-S8-Siz" firstAttribute="centerX" secondItem="Zkn-pN-64t" secondAttribute="centerX" id="BfP-WM-1vN"/>
                             <constraint firstItem="0N9-ge-V1n" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="511-p1-19j" secondAttribute="trailing" constant="8" symbolic="YES" id="Ffp-3r-58U"/>
@@ -340,7 +340,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URH-7a-ZPn">
-                                <rect key="frame" x="20" y="0.0" width="45" height="33"/>
+                                <rect key="frame" x="20" y="10" width="45" height="33"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Close">
                                     <color key="titleColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -414,7 +414,7 @@
                             <constraint firstItem="9Xv-Fh-w8b" firstAttribute="top" secondItem="6bp-J3-1Zf" secondAttribute="bottom" constant="8" id="CxJ-ht-hXt"/>
                             <constraint firstItem="URH-7a-ZPn" firstAttribute="leading" secondItem="mB9-1D-Yjf" secondAttribute="leadingMargin" id="MaL-yT-gCQ"/>
                             <constraint firstItem="aSW-46-xd4" firstAttribute="centerY" secondItem="mB9-1D-Yjf" secondAttribute="centerY" constant="88.5" id="S90-JC-yJv"/>
-                            <constraint firstItem="URH-7a-ZPn" firstAttribute="top" secondItem="0Oi-Qz-6Rb" secondAttribute="top" id="oh4-0N-TWo"/>
+                            <constraint firstItem="URH-7a-ZPn" firstAttribute="top" secondItem="0Oi-Qz-6Rb" secondAttribute="top" constant="10" id="oh4-0N-TWo"/>
                             <constraint firstItem="6bp-J3-1Zf" firstAttribute="top" secondItem="0Oi-Qz-6Rb" secondAttribute="top" constant="125" id="pkL-Af-kUm"/>
                             <constraint firstItem="9Xv-Fh-w8b" firstAttribute="centerX" secondItem="0Oi-Qz-6Rb" secondAttribute="centerX" id="wLA-M2-Nph"/>
                             <constraint firstItem="aSW-46-xd4" firstAttribute="centerX" secondItem="mB9-1D-Yjf" secondAttribute="centerX" id="wc6-GJ-sIB"/>
